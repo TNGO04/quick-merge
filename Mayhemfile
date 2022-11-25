@@ -1,9 +1,5 @@
-image: index.docker.io/tngo04/quick-merge@sha256:7d0dd2c0bf4cfc3898878b8fc95cd48d617d0ee7181db08c80a30da6fbfffac2
-duration: 400
+image: index.docker.io/tngo04/quick-merge:latest
 project: tngo04/quick-merge
 target: quick-merge
 cmds:
   - cmd: /repo/quickmerge -d out.delta -q @@ -r @@ -hco 5.0 -c 1.5 -l 1 -ml 2 -p prefix
-    env: {}
-testsuite:
-  - https://mayhem.forallsecure.com/tngo04/quick-merge/quick-merge/testsuite.tar
