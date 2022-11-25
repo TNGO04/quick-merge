@@ -1,5 +1,7 @@
 image: index.docker.io/tngo04/quick-merge:latest
 project: tngo04/quick-merge
 target: quick-merge
+duration: 480
+
 cmds:
   - cmd: /repo/quickmerge -d out.delta -q @@ -r @@ -hco 5.0 -c 1.5 -l 1 -ml 2 -p prefix
